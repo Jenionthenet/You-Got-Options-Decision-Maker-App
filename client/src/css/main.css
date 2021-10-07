@@ -1,0 +1,711 @@
+/* home page */
+
+#homeContainer {
+  margin: auto;
+  margin-top: 70px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  padding: 50px;
+  border-radius: 20px;
+  border: solid 2px salmon;
+}
+
+#logo {
+  width: 530px;
+  margin-left: 50px;
+}
+
+#homeSloganContainer {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-top: 130px;
+}
+
+#appTitle {
+  font-size: 3.5rem;
+  margin-bottom: 40px;
+}
+
+#appSlogan {
+  font-size: 2.5rem;
+}
+
+/* Menu */
+.color-nav {
+  background-color: rgb(241, 210, 187);
+}
+
+.me-auto {
+  text-align: center;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none !important;
+  color: rgb(49, 48, 47) !important;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+#home {
+  text-decoration: none;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+#register {
+  margin-right: 50px;
+}
+
+#loginMenu {
+  margin-right: 50px;
+}
+
+#viewDecisions {
+  margin-right: 60px;
+}
+#addDecisions {
+  margin-right: 50px;
+}
+
+#navLogoImage {
+  margin-left: 20px;
+}
+
+#brandName {
+  margin: 0 40px;
+}
+
+#formParent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#decisionTitle {
+  /* margin-top: 80px ; */
+  font-size: 2.5rem;
+  /* color: black; */
+}
+
+#optionsDecisionTitle {
+  margin-top: 80px;
+  font-size: 2.5rem;
+}
+.decisionTitle {
+  margin-top: 70px;
+  font-size: 2.5rem;
+}
+
+#decOptTitles {
+  display: flex;
+  flex-wrap: wrap;
+}
+.option {
+  margin-left: 40px;
+}
+#form {
+  width: 40%;
+  margin: auto;
+  padding: 30px;
+  border: solid 1px lightgrey;
+  border-radius: 10px;
+  margin-top: 200px;
+}
+
+#nestedForm {
+  width: 40%;
+  margin: auto;
+  padding: 30px;
+  border: solid 1px lightgrey;
+  border-radius: 10px;
+  margin-top: 40px;
+}
+
+#factorsNestedForm {
+  width: 60%;
+  margin: auto;
+  padding: 30px;
+  border: solid 1px lightgrey;
+  border-radius: 10px;
+  margin-top: 50px;
+}
+
+#inputDiv {
+  display: flex;
+  flex-direction: column;
+}
+
+#inputTitle {
+  margin-bottom: 30px;
+}
+
+.input {
+  height: 40px;
+  border-radius: 5px;
+  border: solid 1px lightslategrey;
+  margin-bottom: 20px;
+}
+
+.factorDescirption {
+  width: 700px;
+}
+
+#inputButton {
+  background-color: lightsalmon;
+  color: white;
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+}
+
+.inputButton {
+  background-color: lightsalmon;
+  color: white;
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  border: 2px solid salmon;
+  color: rgb(219, 104, 92);
+}
+
+#submitBtn {
+  margin-left: 30px;
+  color: white;
+  border: none;
+}
+
+#factorButtonDiv {
+  display: flex;
+}
+
+.details {
+  width: 260px;
+  height: 55px;
+  font-size: 1.2rem;
+  margin-left: 18px;
+  color: white;
+  border: none;
+}
+
+.dropDown {
+  margin-left: 30px;
+  width: 120px;
+}
+
+#factorsOnly {
+  border-radius: 10px;
+  border: solid 1px rgb(160, 173, 185);
+  margin: 20px;
+  padding: 20px;
+}
+
+#detailsDiv {
+  display: flex;
+  border: solid 1px lightsalmon;
+  border-radius: 10px;
+  background-color: lightsalmon;
+  margin: auto;
+  /* justify-content: center; */
+  width: 50%;
+  color: white;
+  padding-left: 40px;
+  height: 70px;
+  align-items: center;
+  position: relative;
+  text-align: left;
+  margin-top: 40px;
+}
+
+#deleteButton {
+  border-radius: 50%;
+  border: 2px solid white;
+  height: 40px;
+  width: 40px;
+  margin-left: 30px;
+  background-color: transparent;
+  color: white;
+  font-weight: 700;
+  font-size: 1.25rem;
+  position: absolute;
+  right: 20px;
+}
+
+#detailsBtn {
+  border-radius: 5px;
+  margin-left: 100px;
+  height: 40px;
+  margin-left: 100px;
+  border: 2px solid white;
+  background-color: rgb(241, 210, 187);
+  position: absolute;
+  right: 100px;
+}
+
+/* detail page */
+li {
+  list-style: none;
+}
+
+#detailDecisionTitle {
+  margin-left: 40px;
+  margin-top: 20px;
+  font-size: 3rem;
+  height: 70px;
+}
+
+#detailDecisionDiv {
+  display: flex;
+  flex-direction: column;
+  background-color: lightsalmon;
+  width: 90%;
+  margin: auto;
+  margin-top: 40px;
+  border-radius: 20px;
+}
+
+#addOptionBtn {
+  width: 65%;
+  margin: auto;
+  border-radius: 5px;
+  background-color: rgb(241, 210, 187);
+  height: 40px;
+  border: none;
+}
+
+#optionListContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+#flexDiv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+ul {
+  padding-left: 0 !important;
+}
+
+/* option list page */
+#detailOptionsDiv {
+  margin: 20px;
+  background-color: rgb(241, 210, 187);
+  margin-top: 40px;
+  width: 350px;
+  border-radius: 15px;
+}
+#optionTitleDiv {
+  display: flex;
+  align-items: center;
+}
+
+#optionTitle {
+  margin: auto;
+  text-align: center;
+  padding-top: 10px;
+  margin-bottom: 10px;
+  font-size: 2rem;
+}
+#deleteBtn {
+  border-radius: 50%;
+  border: 2px solid salmon;
+  height: 40px;
+  width: 40px;
+  color: salmon;
+  margin-right: 20px;
+  background-color: transparent;
+}
+
+#imgPointsDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#optionsImg {
+  height: 120px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+#totalPoints {
+  font-size: 2.5rem;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+#totalPointsDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 120px;
+  background-color: rgb(250 231 65);
+  color: black;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+#totalPointsTitle {
+  font-size: 1.2rem;
+  padding-top: 20px;
+}
+
+/* factor list page */
+
+.factorText {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.points {
+  margin-left: 20px;
+  text-align: right;
+}
+
+#factorListDiv {
+  display: flex;
+  margin-top: 10px;
+  border: solid 1px white;
+  border-radius: 10px;
+  margin: 10px 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#factorDeleteBtn {
+  border-radius: 7px;
+  border: 2px solid salmon;
+  height: 30px;
+  width: 40px;
+  color: salmon;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 7px;
+  align-items: center;
+  background-color: transparent;
+}
+
+#addFactorBtn {
+  width: 50%;
+  margin: auto;
+  border-radius: 5px;
+  background-color: rgb(241, 210, 187);
+  height: 40px;
+  border: none;
+  margin-top: 25px;
+}
+
+@media (min-width: 900px) {
+  #inputButton:hover {
+    background: lightgrey;
+    border: 2px solid salmon;
+    color: rgb(219, 104, 92);
+  }
+
+  .inputButton:hover {
+    background: rgb(233, 227, 227);
+  }
+
+  #submitBtn:hover {
+    background: rgb(233, 227, 227);
+    border: 2px solid salmon;
+    color: rgb(219, 104, 92);
+  }
+
+  .details:hover {
+    background: rgb(233, 227, 227);
+    border: 2px solid salmon;
+    color: rgb(219, 104, 92);
+  }
+
+  #deleteBtn:hover {
+    color: red;
+    font-weight: 700;
+    background-color: rgb(241, 232, 232);
+  }
+
+  #factorDeleteBtn:hover {
+    background: rgb(236, 229, 229);
+    color: red;
+    font-weight: 700;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  #homeContainer {
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    padding: 50px;
+    border-radius: 20px;
+    border: solid 2px salmon;
+  }
+
+  #logo {
+    width: 90%;
+    margin-left: 0;
+  }
+
+  #homeSloganContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+
+  #appTitle {
+    font-size: 2.75rem;
+    margin-bottom: 40px;
+  }
+
+  #appSlogan {
+    font-size: 1.75rem;
+  }
+
+  #home {
+    text-decoration: none;
+    margin: 0 0 10px 0;
+  }
+
+  #register {
+    margin: 5px 0 20px 0;
+  }
+
+  #loginMenu {
+    margin: 0 0 10px 0;
+  }
+
+  #viewDecisions {
+    margin: 0 0 10px 0;
+  }
+
+  #addDecisions {
+    margin-top: 5px !important;
+    margin: 0 0 10px 0;
+  }
+
+  #decOptTitles {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .decisionTitle {
+    font-size: 1.75rem;
+  }
+
+  #decisionTitle {
+    font-size: 1.5rem;
+  }
+
+  .option {
+    margin-top: 20px;
+    margin-left: 0;
+  }
+
+  .decision {
+    margin-top: 70px !important;
+  }
+
+  #addDecisions {
+    margin-top: 25px;
+  }
+
+  #form {
+    width: 60%;
+  }
+  #factorsNestedForm {
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+    border: solid 1px lightgrey;
+    border-radius: 10px;
+    margin-top: 50px;
+  }
+  #nestedForm {
+    margin-top: 50px;
+    width: 80%;
+  }
+  #detailsDiv {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 530px) {
+  #homeContainer {
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    padding: 50px;
+    border-radius: 20px;
+    border: solid 2px salmon;
+  }
+
+  #logo {
+    width: 90%;
+    margin-left: 0;
+  }
+
+  #homeSloganContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+
+  #appTitle {
+    font-size: 2rem;
+    margin-bottom: 40px;
+    width: 100%;
+  }
+
+  #appSlogan {
+    font-size: 1.25rem;
+  }
+
+  #home {
+    text-decoration: none;
+    margin-bottom: 10px;
+  }
+
+  #register {
+    margin-bottom: 10px;
+  }
+
+  #loginMenu {
+    margin-bottom: 10px;
+  }
+
+  #addDecisions {
+    margin-top: 10px !important;
+    margin-left: 20px;
+  }
+
+  #brandName {
+    font-size: large;
+    margin: 0;
+  }
+  #form {
+    margin-top: 90px;
+    width: 80%;
+  }
+
+  #nestedForm {
+    margin-top: 50px;
+    width: 80%;
+  }
+  #factorsNestedForm {
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+    border: solid 1px lightgrey;
+    border-radius: 10px;
+    margin-top: 50px;
+  }
+
+  #factorsOnly {
+    border-radius: 10px;
+    border: solid 1px rgb(160, 173, 185);
+    margin: 10px;
+    padding: 20px;
+  }
+
+  #submitBtn {
+    margin-left: 5px;
+  }
+
+  #detailsDiv {
+    display: flex;
+    border: solid 1px lightsalmon;
+    border-radius: 10px;
+    background-color: lightsalmon;
+    margin: auto;
+    /* justify-content: center; */
+    width: 90%;
+    color: white;
+    padding-left: 40px;
+    height: 70px;
+    align-items: center;
+    position: relative;
+    text-align: left;
+    margin-top: 40px;
+  }
+
+  #detailDecisionTitle {
+    margin-left: 40px;
+    margin-top: 20px;
+    font-size: 2rem;
+    height: 70px;
+    margin-bottom: 10px;
+  }
+  #decisionTitle {
+    font-size: 1.4rem;
+    width: 130px;
+    /* margin-top: 50px; */
+  }
+
+  #optionsDecisionTitle {
+    font-size: 1.6rem;
+    margin-top: 50px;
+  }
+
+  .decision {
+    margin-left: 10px;
+  }
+  .option {
+    margin-left: 10px;
+  }
+  #deleteButton {
+    border-radius: 50%;
+    border: 2px solid white;
+    height: 40px;
+    width: 40px;
+    margin-left: 30px;
+    background-color: transparent;
+    color: white;
+    font-weight: 700;
+    font-size: 1.25rem;
+    position: absolute;
+    right: 7px;
+    text-align: center;
+  }
+
+  #optionListContainer {
+    width: fit-content;
+  }
+
+  #detailOptionsDiv {
+    width: fit-content;
+  }
+
+  #detailsBtn {
+    border-radius: 5px;
+    margin-left: 100px;
+    height: 40px;
+    margin-left: 100px;
+    border: 2px solid white;
+    background-color: rgb(241, 210, 187);
+    position: absolute;
+    right: 60px;
+    width: 80px;
+    font-size: small;
+  }
+}
